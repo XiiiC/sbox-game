@@ -1,0 +1,33 @@
+text,label,textentry
+{
+	// font-family: Roboto;
+	font-weight: 900;
+	text-shadow: 0 0 50px rgba( black, 0.1 );	
+}
+
+text.alert 
+{
+	color: rgba( white, 0.5 );
+	font-size: 25px;
+	padding: 50px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+
+.crosshair {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 4px;
+	height: 4px;
+	
+	transform: translate( -50% -50% );
+	
+	border-radius: 10px;
+	border: 1px solid black;
+	
+	background-color: white;
+}

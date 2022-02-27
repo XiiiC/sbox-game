@@ -1,0 +1,5 @@
+﻿{
+  "precache": [
+    "models/citizen/citizen.vmdl"
+  ]
+}

@@ -1,0 +1,16 @@
+// 
+// Template.Game : Sandbox.Game 
+// 
+@PointClass = template : ""
+[
+	targetname(target_source) : "Name" : : "The name that other entities refer to this entity by."
+]
+
+// 
+// Template.TestWeapon : Sandbox.BaseWeapon 
+// 
+@PointClass = test_weapon : ""
+[
+	targetname(target_source) : "Name" : : "The name that other entities refer to this entity by."
+]
+
